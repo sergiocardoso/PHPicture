@@ -1,7 +1,27 @@
 {
+	"name" : "sergiocardoso/phpicture",
+	"type" : "library",
+	"description" : "Generate friendly thumbs from url with parameters",
+	"keywords" : ["thumb", "gd", "images", "resize", "effects"],
+	"homepage" : "http://sergiocardoso.org/phpicture",
+	"license" : "MIT",
+	"authors" : [
+		{
+			"name" : "Sérgio Cardoso",
+			"email" : "contato@sergiocardoso.org",
+			"homepage" : "http://sergiocardoso.org",
+			"role" : "Developer"
+		}
+	],
+
+	"require": {
+		"php" : ">=5.3.0"
+	},
+
 	"require-dev" : {
 		"phpunit/phpunit" : "*"
 	},
+
 	"autoload" : {
 		"psr-4" : {
 			"PHPicture\\" : "Lib/"
